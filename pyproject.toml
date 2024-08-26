@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-utools"
+description = "Efficiency tools, Personalized style, Other Nodes, ..."
+version = "1.0.0"
+license = "MIT"
+
+[project.urls]
+Repository = "https://github.com/comfyanonymous/ComfyUI"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "ltg"
+DisplayName = "comfyui-utools"
+Icon = ""
