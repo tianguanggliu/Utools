@@ -5,7 +5,7 @@ version = "1.0.0"
 license = "MIT"
 
 [project.urls]
-Repository = "https://github.com/comfyanonymous/ComfyUI"
+Repository = "https://github.com/tianguanggliu/Utools"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
