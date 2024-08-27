@@ -4,6 +4,8 @@ class UtoolsClass extends EventTarget {
       this.registerEventHooks();
   }
 
+  disabledValue = 4;
+
   enableToggle = true;
 
   dispatchCustomEvent(event, detail) {

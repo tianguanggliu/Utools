@@ -24,7 +24,7 @@ const ext = {
         if (res) {
           const hasAnyActiveNodes = group._nodes.some((n) => n.mode === LiteGraph.ALWAYS);
           for (const node of group._nodes) {
-            node.mode = hasAnyActiveNodes ? LiteGraph.NEVER : LiteGraph.ALWAYS;
+            node.mode = hasAnyActiveNodes ? Utools.disabledValue : LiteGraph.ALWAYS;
           }
           return
         }
@@ -130,7 +130,7 @@ const ext = {
         pos[0] >= buttonRect[0] && pos[0] <= buttonRect[0] + buttonRect[2] &&
         pos[1] >= buttonRect[1] && pos[1] <= buttonRect[1] + buttonRect[3]) {
         if (node.mode === LiteGraph.ALWAYS) {
-          node.mode = LiteGraph.NEVER
+          node.mode = Utools.disabledValue
         } else {
           node.mode = LiteGraph.ALWAYS
         }
