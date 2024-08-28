@@ -1,7 +1,7 @@
 [project]
 name = "comfyui-utools"
 description = "Efficiency tools, Personalized style, Other Nodes, ..."
-version = "1.0.2"
+version = "1.0.3"
 license = "MIT"
 
 [project.urls]
