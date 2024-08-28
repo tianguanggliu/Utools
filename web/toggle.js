@@ -118,7 +118,7 @@ const ext = {
   // 您可以在此处修改小部件、添加处理程序等
   nodeCreated(node, app) {
     const originDrawFun = node.onDrawTitleBox;
-    const originMouseDownFun = node.ononMouseDown;
+    const originMouseDownFun = node.onMouseDown;
     node.onMouseDown = function (e, pos) {
       if (!Utools.enableToggle) return
       if (originMouseDownFun) {

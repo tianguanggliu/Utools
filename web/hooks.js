@@ -1,7 +1,10 @@
+import { injectCss } from './utils.js'
+
 class UtoolsClass extends EventTarget {
   constructor() {
       super();
       this.registerEventHooks();
+      injectCss(`${'../../extensions/ComfyUI-Utools'}/libs/viewer/viewer.min.css`).then(e => console.log(888888888888888));
   }
 
   disabledValue = 4;
