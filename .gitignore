@@ -1,0 +1,8 @@
+_test_*.*
+**/*.pyc
+**/__pycache__/
+**/__pycache__
+.venv
+.idea
+*.pth
+*.ini
